@@ -53,7 +53,8 @@ function multiplesOfFive() {
 
   let fiveProducts = 0;
   let multiplos = [];
-
+  let multi = 0;
+  
 for (let counter = 1; multi <= 100;counter++){
     
     multi = counter * 5;
