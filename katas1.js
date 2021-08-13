@@ -54,7 +54,7 @@ function multiplesOfFive() {
   let fiveProducts = 0;
   let multiplos = [];
   let multi = 0;
-  
+
 for (let counter = 1; multi <= 100;counter++){
     
     multi = counter * 5;
@@ -73,12 +73,12 @@ function squareNumbers() {
   let potencia = 0; 
   let valores = [];
 
-   for(let n = 1; quadrado< 100; n++){
+   for(let n = 1; potencia < 100; n++){
 
       potencia = n ** 2;  
-      quadrados.push(quadrado);
+      valores.push(potencia);
   } 
-  return quadrados;
+  return potencia;
 }
 
 squareNumbers();
