@@ -12,7 +12,7 @@ function oneThroughTwenty() {
 }
 
 
-oneThroughTwenty();
+console.log(oneThroughTwenty());
 
 
 
@@ -29,7 +29,7 @@ function evensToTwenty() {
    return pares;
 }
 
-evensToTwenty();
+console.log(evensToTwenty());
 
 
 function oddsToTwenty() {
@@ -45,7 +45,7 @@ function oddsToTwenty() {
    
 }
 
-oddsToTwenty();
+console.log(oddsToTwenty());
 
 
 
@@ -55,17 +55,17 @@ function multiplesOfFive() {
   let multiplos = [];
   let multi = 0;
 
-for (let counter = 1; multi <= 100;counter++){
+  for (let counter = 1; multi <= 100;counter++){
     
     multi = counter * 5;
     multiplos.push(multi);
     
 }
-return multiplos;
+  return multiplos;
  }
 
 
-multiplesOfFive();
+ console.log(multiplesOfFive());
 
 
 function squareNumbers() {
@@ -81,7 +81,7 @@ function squareNumbers() {
   return potencia;
 }
 
-squareNumbers();
+console.log(squareNumbers());
 
 
 
@@ -98,38 +98,38 @@ function countingBackwards() {
  return regressiva;
 }
 
-countingBackwards();
+console.log(countingBackwards());
 
 
 
 function evenNumbersBackwards() {
     
- let n = 20;
- let pares = [];
+  let n = 20;
+  let pares = [];
  
- while(n > 0){
+  while(n > 0){
    pares.push(n);
    n -= 2;  
  }
- return pares;
+  return pares;
 }
 
-evenNumbersBackwards();
+console.log(evenNumbersBackwards());
 
 
 function oddNumbersBackwards() {
     
- let n = 19;
- let impares = [];
+  let n = 19;
+  let impares = [];
   
- while(n > 0){
+  while(n > 0){
    impares.push(n);
    n -= 2;
  }
- return impares;
+  return impares;
 }
 
-oddNumbersBackwards();
+console.log(oddNumbersBackwards());
 
 
 function multiplesOfFiveBackwards() {
@@ -143,7 +143,7 @@ function multiplesOfFiveBackwards() {
   return multiFive;
 }
 
-multiplesOfFiveBackwards();
+console.log(multiplesOfFiveBackwards());
 
 
 function squareNumbersBackwards() {
@@ -163,4 +163,4 @@ function squareNumbersBackwards() {
    return reg;
 }
 
-squareNumbersBackwards();
+console.log(squareNumbersBackwards());
