@@ -42,7 +42,7 @@ function oddsToTwenty() {
     impares.push(counter);
     counter += 2;
   }
-   
+   return impares;
 }
 
 console.log(oddsToTwenty());
@@ -78,7 +78,7 @@ function squareNumbers() {
       potencia = n ** 2;  
       valores.push(potencia);
   } 
-  return potencia;
+  return valores;
 }
 
 console.log(squareNumbers());
@@ -150,17 +150,18 @@ function squareNumbersBackwards() {
    let impares = [];
    let numero = 1;
    let reg = 100 ;
+   let quadrados = [];
    
    for(let n = 1; n <= 10; n++){
       impares.push(numero);
       numero += 2;
    }
-   for(let indice = (impares.length - 1); indice >= 0; indice--){
+   for(let indice = (impares.length - 1); indice > 0; indice--){
       reg -= impares[indice];
-     
+      quadrados.push(reg);
      
    }
-   return reg;
+   return quadrados;
 }
 
 console.log(squareNumbersBackwards());
