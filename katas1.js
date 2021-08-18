@@ -156,10 +156,9 @@ function squareNumbersBackwards() {
       impares.push(numero);
       numero += 2;
    }
-   for(let indice = (impares.length - 1); indice > 0; indice--){
-      reg -= impares[indice];
+   for(let indice = (impares.length - 1); indice >= 0; indice--){
       quadrados.push(reg);
-     
+      reg -= impares[indice];
    }
    return quadrados;
 }
